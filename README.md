@@ -9,7 +9,7 @@
 * 📬 How to reach me:
   * [Email->](http://gdzejlin@gmail.com)
   * [Linkedin->](https://www.linkedin.com/in/zejlin)
-  * [Website](https://crysple.github.io/about/)
+  * [Website->](https://crysple.github.io/about/)
   
   
 ![My GitHub Status](https://github-readme-stats.vercel.app/api?username=crysple&show_icons=true)
