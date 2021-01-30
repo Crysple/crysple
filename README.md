@@ -5,7 +5,7 @@
 
 * 💸 I received my Masters's degree in Computer Science at Columbia University in 2021
 * 📝 Bachelor’s degree in Software Engineering at South China University of Technology, China in 2019
-* 🧑‍🎨 My interests focus on infrastructure development 🏗, system-level programming 🛠 (C++, etc.) and data-driven intelligence 📱 (Machine Learning, AI, etc.)
+* 🧑‍🎨 My interests focus on infrastructure development 🏗 system-level programming 🛠 (C++, etc.) and data-driven intelligence 📱 (Machine Learning, AI, etc.)
 * 📬 How to reach me:
   * [Email->](http://gdzejlin@gmail.com)
   * [Linkedin->](https://www.linkedin.com/in/zejlin)
