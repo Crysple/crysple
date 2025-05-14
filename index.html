@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>横穿美国 I‑70 落基山 & 红岩峡谷 · 8 日自驾计划</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f6f8fc;
+      --accent: #d3423e;
+      --accent-light: #f25c54;
+      --dark: #1e1e1e;
+      --light: #ffffff;
+      --muted: #6c7a89;
+      --radius: 1rem;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Mulish',sans-serif}
+    body{background:var(--bg);color:var(--dark);}
+    header{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.35)),url('https://source.unsplash.com/1600x650/?rocky,mountains') center/cover no-repeat;color:var(--light);text-align:center;padding:6rem 1.5rem 7rem;}
+    header h1{font-size:2.4rem;font-weight:800;line-height:1.35;}
+    header p{margin-top:.8rem;font-size:1rem;opacity:.9;}
+    .container{max-width:1100px;margin:0 auto 3.5rem;padding:0 1.5rem;}
+    .grid{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+    .card{background:var(--light);padding:1.5rem 1.25rem;border-radius:var(--radius);box-shadow:0 5px 12px rgba(0,0,0,.05);transition:.25s;}
+    .card:hover{transform:translateY(-4px);box-shadow:0 8px 18px rgba(0,0,0,.08);}
+    .card h3{font-size:1.15rem;color:var(--accent);margin-bottom:.35rem;font-weight:700;}
+    .card p{font-size:.92rem;color:var(--muted);line-height:1.5;word-break:break-word;}
+    .tbl-wrapper{overflow-x:auto;border-radius:var(--radius);box-shadow:0 5px 12px rgba(0,0,0,.05);background:var(--light);}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:.85rem 1rem;font-size:.88rem;text-align:left;}
+    thead th{background:var(--accent);color:var(--light);font-weight:700;}
+    tbody tr:nth-child(odd){background:#fff;}
+    tbody tr:nth-child(even){background:#fafafa;}
+    .accordion{margin-top:1.5rem;}
+    .acc-item{background:var(--light);margin-bottom:1rem;border-radius:var(--radius);box-shadow:0 4px 10px rgba(0,0,0,.05);overflow:hidden;}
+    .acc-header{cursor:pointer;padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between;}
+    .acc-header h4{font-size:1rem;font-weight:700;}
+    .acc-header span{transition:transform .35s ease;}
+    .acc-content{max-height:0;overflow:hidden;transition:max-height .4s ease;padding:0 1.25rem;}
+    .acc-content>div{padding:1rem 0;font-size:.9rem;line-height:1.55;}
+    .acc-content ul{margin:.35rem 0 .35rem 1rem;padding-left:.25rem;list-style:disc;}
+    .rotate{transform:rotate(90deg);}
+    a{color:var(--accent-light);text-decoration:none;word-break:break-all;}
+    a:hover{text-decoration:underline;}
+    footer{text-align:center;font-size:.75rem;color:var(--muted);margin:3rem 0 2rem;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>纽约 → 湾区 公路旅行<br><small style="font-size:1.2rem;font-weight:400">I‑70 落基山 (Rockies) & 红岩峡谷 (Red Canyons) · 8 天</small></h1>
+  <p>总里程约 2 870 英里 / 4 620 公里 · 油价预算于 2025‑05‑13</p>
+</header>
+<main class="container">
+
+  <!-- Snapshot -->
+  <section id="snapshot">
+    <div class="grid">
+      <div class="card"><h3>行程里程</h3><p>≈ 2 870 英里</p></div>
+      <div class="card"><h3>预计油费</h3><p>$ 341（Premium，88 加仑 × $ 3.87）</p></div>
+      <div class="card"><h3>平均驾驶</h3><p>每日约 5.5 小时</p></div>
+      <div class="card"><h3>主要地貌</h3><p>阿帕拉契台地、玉米带平原、落基山脉、科罗拉多高原、盆地山脉、内华达沙漠</p></div>
+    </div>
+  </section>
+
+  <!-- Overview Table -->
+  <section id="overview">
+    <h2 style="margin:2.5rem 0 1rem;color:var(--accent);font-size:1.55rem">日程概览</h2>
+    <div class="tbl-wrapper">
+      <table>
+        <thead><tr><th>Day</th><th>路段</th><th>里程</th><th>典型地貌</th><th>必打卡</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>纽约 (New York) → 曾斯维尔 (Zanesville)</td><td>430</td><td>阿帕拉契台地</td><td><a href="https://www.google.com/maps/search/?api=1&query=Y+Bridge+Zanesville+OH" target="_blank">Y 桥</a></td></tr>
+          <tr><td>2</td><td>曾斯维尔 → 圣路易斯 (St Louis)</td><td>425</td><td>玉米带平原</td><td><a href="https://www.google.com/maps/search/?api=1&query=Gateway+Arch+St+Louis+MO" target="_blank">拱门国家公园</a></td></tr>
+          <tr><td>3</td><td>圣路易斯 → 曼哈顿 (Manhattan KS)</td><td>360</td><td>大草原</td><td><a href="https://www.google.com/maps/search/?api=1&query=Route+66+Museum+MO" target="_blank">66 号公路博物馆</a></td></tr>
+          <tr><td>4</td><td>曼哈顿 → 丹佛 (Denver)</td><td>380</td><td>高平原</td><td><a href="https://www.google.com/maps/search/?api=1&query=Lookout+Mountain+Golden+CO" target="_blank">卢克奥特山</a></td></tr>
+          <tr><td>5</td><td>丹佛 → 大章克申 (Grand Junction)</td><td>245</td><td>落基山脉</td><td>艾森豪威尔隧道 · 维尔山口 · <a href="https://www.google.com/maps/search/?api=1&query=Hanging+Lake+Trailhead" target="_blank">Hanging Lake</a></td></tr>
+          <tr><td>6</td><td>大章克申 → 里奇菲尔德 (Richfield)</td><td>230</td><td>科罗拉多高原</td><td><a href="https://www.google.com/maps/search/?api=1&query=Colorado+National+Monument" target="_blank">国家纪念地环道</a> · 斑狼观景台</td></tr>
+          <tr><td>7</td><td>里奇菲尔德 → 奥斯汀 (Austin NV)</td><td>295</td><td>盆地山脉沙漠</td><td><a href="https://www.google.com/maps/search/?api=1&query=Eureka+Opera+House+NV" target="_blank">Eureka 歌剧院</a></td></tr>
+          <tr><td>8</td><td>奥斯汀 → 旧金山 (San Francisco)</td><td>390</td><td>内华达沙漠 · 雪拉山脉</td><td><a href="https://www.google.com/maps/search/?api=1&query=Donner+Pass+CA" target="_blank">多纳峰</a> · 湾桥夜景</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Accordion Details -->
+  <section id="details">
+    <h2 style="margin:2.5rem 0 1rem;color:var(--accent);font-size:1.55rem">每日行程 & 注意事项</h2>
+    <div class="accordion">
+
+      <!-- Day 1 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 1 · 纽约 → 曾斯维尔</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：430 英里 · 约 6 h 30<br>
+          ◇ 地貌：阿帕拉契丘陵 & 俄亥俄河谷<br>
+          ◇ 必打卡：Bedford Service Plaza、<a href="https://www.google.com/maps/search/?api=1&query=Y+Bridge+Zanesville+OH" target="_blank">Y 桥</a><br>
+          <strong>注意事项</strong>：
+          <ul>
+            <li>宾州收费公路施工，查看 <a href="https://www.paturnpike.com/traveling/construction" target="_blank">PA Turnpike Alerts</a></li>
+            <li>EZ‑Pass 改自由流，充值避免罚单</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 2 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 2 · 曾斯维尔 → 圣路易斯</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：425 英里 · 约 6 h 15<br>
+          ◇ 地貌：玉米带平原<br>
+          ◇ 必打卡：<a href="https://www.google.com/maps/search/?api=1&query=Long's+Bakery+Indianapolis" target="_blank">Long’s Bakery</a>、<a href="https://www.google.com/maps/search/?api=1&query=Gateway+Arch+St+Louis+MO" target="_blank">Gateway Arch</a><br>
+          <strong>注意事项</strong>：
+          <ul>
+            <li>印第安纳 I‑70 夜间单道，关注 <a href="https://indot.carsprogram.org" target="_blank">INDOT Traffic</a></li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 3 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 3 · 圣路易斯 → 曼哈顿 (KS)</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：360 英里 · 约 5 h 15<br>
+          ◇ 地貌：密西西比冲积平原 → 大草原<br>
+          ◇ 必打卡：<a href="https://www.google.com/maps/search/?api=1&query=Route+66+Museum+MO" target="_blank">Route 66 Museum</a>、Tallgrass Tap House<br>
+          <strong>注意事项</strong>：<ul>
+            <li>Kansas Turnpike 全电子收费，可办 <a href="https://www.kstag.com" target="_blank">K‑TAG</a></li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 4 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 4 · 曼哈顿 → 丹佛</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：380 英里 · 约 5 h 30<br>
+          ◇ 地貌：高平原抬升<br>
+          ◇ 必打卡：Prairie Dog Town、<a href="https://www.google.com/maps/search/?api=1&query=Lookout+Mountain+Golden+CO" target="_blank">Lookout Mountain</a><br>
+          <strong>注意事项</strong>：<ul>
+            <li>丹佛海拔 1 mile，注意补水防轻微高反</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 5 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 5 · 丹佛 → 大章克申</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：245 英里 · 约 3 h 45<br>
+          ◇ 地貌：落基山分水岭 & 峡谷<br>
+          ◇ 必打卡：艾森豪威尔隧道、维尔山口、<a href="https://www.google.com/maps/search/?api=1&query=Hanging+Lake+Trailhead" target="_blank">Hanging Lake</a><br>
+          <strong>注意事项</strong>：
+          <ul>
+            <li>维尔山口 2025 夏施工，可短信 vailpass 订阅 <a href="https://www.codot.gov/projects/i70westvailauxiliarylanes/construction" target="_blank">CDOT 提醒</a></li>
+            <li>长下坡用发动机制动，参见 <a href="https://www.reddit.com/r/Denver/comments/pwigty" target="_blank">当地司机建议</a></li>
+            <li>如 Glenwood Canyon 封路，绕行 <a href="https://www.codot.gov/travel/colorado-byways/western-slope/highway-40" target="_blank">CO‑13 & US‑40</a>（+2 h）</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 6 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 6 · 大章克申 → 里奇菲尔德</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：230 英里 · 约 3 h 30<br>
+          ◇ 地貌：科罗拉多高原红岩<br>
+          ◇ 必打卡：<a href="https://www.google.com/maps/search/?api=1&query=Colorado+National+Monument" target="_blank">Colorado National Monument</a>、Spotted Wolf Vista<br>
+          <strong>注意事项</strong>：<ul>
+            <li>Swell 地区无信号，提前下载离线地图；在 <a href="https://www.google.com/maps/search/?api=1&query=Green+River+UT+Gas+Station" target="_blank">Green River</a> 补油</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 7 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 7 · 里奇菲尔德 → 奥斯汀 (NV)</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：295 英里 · 约 4 h 30<br>
+          ◇ 地貌：盆地-山脉波浪沙漠<br>
+          ◇ 必打卡：Delta Topaz Museum、<a href="https://www.google.com/maps/search/?api=1&query=Eureka+Opera+House+NV" target="_blank">Eureka Opera House</a>、Austin Summit<br>
+          <strong>注意事项</strong>：<ul>
+            <li>US‑50 Delta 至 Ely 83 mi 无油站，务必满箱；曾有夜间断油案例，参见 <a href="https://www.reddit.com/r/roadtrip/comments/1clix1c" target="_blank">车友分享</a></li>
+            <li>白天高温 42 °C，随车 ≥5 gal 饮水</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <!-- Day 8 -->
+      <div class="acc-item"><div class="acc-header" onclick="toggleAcc(this)"><h4>Day 8 · 奥斯汀 → 旧金山</h4><span>▶</span></div>
+        <div class="acc-content"><div>
+          ◇ 驾驶：390 英里 · 约 6 h<br>
+          ◇ 地貌：内华达高沙漠 → 雪拉山脉 → 湾区丘陵<br>
+          ◇ 必打卡：Peg’s Brunch (Reno)、<a href="https://www.google.com/maps/search/?api=1&query=Donner+Pass+CA" target="_blank">Donner Pass</a>、Bay Bridge 夜景<br>
+          <strong>注意事项</strong>：<ul>
+            <li>I‑80 雪拉山段修复，实时查看 <a href="https://roads.dot.ca.gov/?roadnumber=80" target="_blank">Caltrans QuickMap</a></li>
+            <li>夏季山火可能封路，备两天口粮，必要时改走 US‑50 → I‑5</li>
+          </ul>
+        </div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Budget -->
+  <section id="budget">
+    <h2 style="margin:2.5rem 0 1rem;color:var(--accent);font-size:1.55rem">费用预估</h2>
+    <div class="tbl-wrapper">
+      <table>
+        <thead><tr><th>项目</th><th>金额 (USD)</th></tr></thead>
+        <tbody>
+          <tr><td>燃油 (Premium)</td><td>$ 341</td></tr>
+          <tr><td>过路 & 桥费</td><td>$ 45</td></tr>
+          <tr><td>住宿 (7 晚)</td><td>$ 840</td></tr>
+          <tr><td>餐饮 (8 天)</td><td>$ 360</td></tr>
+          <tr><td>车辆检查 & 补给</td><td>$ 100</td></tr>
+          <tr style="font-weight:700;color:var(--accent)"><td>合计</td><td>$ 1 686</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+<footer>更新日期：2025‑05‑13 🚗💨</footer>
+<script>
+  function toggleAcc(el){
+    const c=el.nextElementSibling;const icon=el.querySelector('span');
+    if(c.style.maxHeight){c.style.maxHeight=null;icon.classList.remove('rotate');}
+    else{c.style.maxHeight=c.scrollHeight+'px';icon.classList.add('rotate');}
+  }
+</script>
+</body>
+</html>
+
