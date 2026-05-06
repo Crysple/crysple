@@ -1,7 +1,7 @@
 ### Hi there 👋 I'm Zejun Lin (林泽俊)
-> Chinese 🇨🇳 | New York 🇺🇸 | Computer Science ⛏
+> Chinese 🇨🇳 | Sunnyvale 🇺🇸 | Computer Science ⛏
 
-🌱 I am currently a Software Engineer 🧑‍💻 at Bloomberg.
+🌱 I am currently a Sr. Software Engineer 🧑‍💻 at Linkedin.
 
 * 💸 I received my Masters's degree in Computer Science at Columbia University in 2021
 * 📝 Bachelor’s degree in Software Engineering at South China University of Technology, China in 2019
